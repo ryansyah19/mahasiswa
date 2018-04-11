@@ -10,7 +10,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <title>Welcome To | Bootstrap Based Admin Template - Material Design</title>
+    <title>Sistem Pendaftaran</title>
     <!-- Favicon-->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
@@ -101,7 +101,7 @@
 						$cdata = mysqli_fetch_array($cekdata);
 						//print_r($cdata);
 						if(empty($cdata['urlfoto'])){
-							echo "<img src='images/user.png' width='40' height='40'>";
+							echo "<img src='images/user.png' width='40' height='40' style='margin-bottom:35px; margin-left:10px;'>";
 						}
 						else{
 						 echo "<a href='".$cdata['urlfoto']."'><img src='".$cdata['urlfoto']."'width='100' height='100'> </a>";
